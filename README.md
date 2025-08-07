@@ -19,13 +19,24 @@ A simple timer-based LED blinker module that toggles an LED at a specified frequ
 - Testbench-ready with waveform preview
 - Clean, commented Verilog code
 
+### 2. [uart-transmitter-receiver](./uart-transmitter-receiver)
+
+A UART transmitter module implemented using a finite state machine.
+
+**Features:**
+- UART TX: start bit, 8 data bits, stop bit
+- Baud-rate synchronized
+- Clean FSM-based implementation
+- Suitable for FPGA-to-PC or FPGA-to-FPGA communication
+- Easy to integrate into larger designs
+
 ---
 
 ## 🛠️ Coming Soon
 
 The following beginner-level FPGA modules are currently being developed and will be added to this repository:
 
-- UART Transmitter / UART Receiver  
+- UART Receiver (to complete the TX/RX pair)  
 - Debouncer FSM: Button / Toggle  
 - 7-Segment Display Driver: Multiplexer and Counter  
 - PWM Generator: Dimming LED or Servo Control  
@@ -61,7 +72,5 @@ New projects will be added as soon as they’re completed and verified.
 
 **Muhammad Shofuwan Anwar**  
 Graduate Student @ NTUST  
-Focus: Embedded Systems | SoC Design | Signal Processing on FPGAs
-
----
+Focus: Embedded Systems | VLSI | FPGA
 
